@@ -1,8 +1,8 @@
 # Module kotlinx-coroutines-core
 
-Core primitives to work with coroutines.
+* Core primitives -- to work with -- coroutines
 
-Coroutine builder functions:
+* Coroutine builder functions:
 
 | **Name**                                       | **Result**                                                   | **Scope**                                                  | **Description**
 | ---------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------- | ---------------
