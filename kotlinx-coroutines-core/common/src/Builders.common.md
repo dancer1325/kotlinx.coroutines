@@ -1,6 +1,8 @@
 * `fun CoroutineScope.launch(): Job {}`
+  * == coroutine builder
   * launches a NEW coroutine / 
-    * NO block the current thread
+    * 👀NO block the current thread👀
+      * == -- concurrent with the -- REST of the code 
     * returns a reference to the coroutine -- as a -- `Job`
       * if job is cancelled (`Job.cancel`) -> coroutine is cancelled
     * coroutine context -- is inherited from a -- `CoroutineScope`
@@ -21,3 +23,5 @@
 * the context of another coroutine, then any uncaught exception leads to the cancellation of the parent coroutine.
 *
 * See [newCoroutineContext] for a description of debugging facilities that are available for a newly created coroutine.
+
+* TODO:
