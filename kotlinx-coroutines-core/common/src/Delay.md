@@ -7,7 +7,7 @@
           * ALTHOUGH this function is ready to return the result, BUT was cancelled | suspended -> `CancellationException` will be thrown
   * allows
     * delays the coroutine >= `timeMillis` /
-      * NO block a thread
+      * 👀NO block a thread👀
       * resumes the thread | AFTER a specified time
       * if `timeMillis` <0 -> function returns immediately
       * if you want to delay forever ( OR | TILL cancellation) -> use `awaitCancellation`
